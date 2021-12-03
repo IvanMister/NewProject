@@ -1,0 +1,264 @@
+body {
+  font-family: "Anton", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 1600px;
+}
+/* настройка (header) */
+header,
+.header {
+  background-image: url(img/header-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flow-root;
+}
+/* ФОН (header) */
+.table {
+  width: 1169px;
+  height: 48px;
+  margin-top: 57px;
+  margin-left: 216px;
+  display: flex;
+}
+/* Логотип  (header) */
+.logo {
+  background-image: url(img/logo.svg);
+  background-repeat: no-repeat;
+  margin: 0;
+  padding-top: 4px;
+  padding-bottom: 44px;
+  width: 38px;
+}
+/* текст (header) */
+.block {
+  height: 47px;
+  width: 1000px;
+  margin: 0;
+  display: flex;
+}
+/* блок для меню (header) */
+.text {
+  height: 48px;
+  width: 300px;
+  margin-top: -8px;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+/* блок для меню с телефоном (header) */
+.tel {
+  display: flex;
+  width: 150px;
+  margin-left: 0;
+  padding-top: 5px;
+  padding-left: 20px;
+  color: #ffffff;
+}
+/*настройки телефона (header) */
+.tel a {
+  color: #ffffff;
+  font-size: 17px;
+  text-decoration: none;
+}
+/* 2 блок в блоке header (header) */
+.block2 {
+  display: block;
+  margin: 216px 215px 322px 218px;
+  height: 322px;
+}
+/* 1 текст внутри блока block2 (header)  */
+.textblock {
+  color: #ffffff;
+  font-family: Anton;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 44px;
+  margin: 0;
+  padding: 0;
+}
+/* 2 текст для блока block2 (header)*/
+.hblock {
+  color: #ffffff;
+  font-size: 100px;
+  margin: 0;
+}
+/* 3 ссылка в блоке block2 (header) */
+.ablock {
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  padding: 18px 23px 17px 23px;
+  font-family: Anton;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 26px;
+  width: 300px;
+}
+/* настройки footer */
+footer,
+.footer {
+  width: 1600px;
+}
+/* блок с display (footer)*/
+.textfooter {
+  display: inline-flex;
+}
+/* блок c текстом 1 (footer)*/
+.textfiter {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: 216px;
+}
+/* блок c текстом 2 (footer)*/
+.textfiiter {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: 55px;
+}
+
+/*  настройки (center)*/
+.center {
+  width: 1160.02px;
+  height: 50px;
+  margin: 125px 215px 74px 216px;
+  display: inline-table;
+}
+/*  1 текст в блоке - (center)*/
+.centertext {
+  margin: 0;
+  padding: 0;
+  font-family: Anton;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 73px;
+  text-transform: uppercase;
+}
+/* блок 2 блока центра*/
+.centertwo {
+  width: 1160.02px;
+  height: 243px;
+  margin-left: 218px;
+}
+
+.twotext {
+  font-family: Anton;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 37px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  margin-right: 0;
+  display: initial;
+}
+
+.twotex {
+  position: absolute;
+  width: 564px;
+  height: 146px;
+  left: 215px;
+  top: 1212px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+  margin-top: 70px;
+}
+
+.tableLL {
+  width: 564px;
+  margin-left: 590px;
+  margin-top: 0;
+}
+
+.tablemain {
+  position: absolute;
+  width: 300px;
+  margin-top: -39px;
+  font-family: Anton;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 37px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+
+  color: #000000;
+}
+
+.tablemainI {
+  position: absolute;
+  width: 564px;
+  width: 564px;
+  height: 192px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  top: 1269px;
+}
+/* блок 3 центра */
+.centerLLL {
+  width: 1160.02px;
+  height: 344px;
+  margin: 84px 219px 114px 219px;
+}
+
+.imgone {
+  width: 270px;
+  height: 344px;
+
+  margin: 0;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+.imgtwo {
+  width: 270px;
+  height: 344px;
+  margin-left: 26px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+.imgfrom {
+  width: 570px;
+  height: 344px;
+  display: contents;
+  background-repeat: no-repeat;
+}
